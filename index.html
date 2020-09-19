@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ripple</title>
+  <style>
+    
+		.ripple-wrap {
+			position: relative;
+		}
+
+		.ripple-wrap canvas {
+			position: absolute;
+			z-index: 1;
+		}
+	
+  </style>
+  <script src="sketch.js"></script>
+</head>
+<body>
+  <div class="ripple-wrap"><canvas width="520" height="880" style="left: 0px; top: 0px;"></canvas>
+    <img src="data/her.jpeg"  onload="waterRipple(this);"></div>
+
+</body>
+</html>
